@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="loginstyle/loginstyle.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div id="login">
+            <img src="svg/img2.svg" alt="img" id="svg">
+            <h1>Login</h1>
+            <form action="process.php" method="post">
+            <div id="message"></div>
+            <div>
+                <label for="Username">User Name:</label>
+                <input type="text" name="UName" placeholder=" User Name" class="textbox" required>
+            </div>
+            <div>
+                <label for="Password">Password:</label>
+                <input type="password" name="Password" placeholder=" Password" class="textbox" required>
+            </div>
+            <div>
+                <button class="subbtn" name="Login">Login</button>
+                <p class="reg">If not Registerd >><a href="register.html">Register Here</a> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
