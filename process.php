@@ -19,7 +19,7 @@ session_start();
             }
             else
             {
-                header("location:index.html?");
+                echo "<h1> Login failed. Invalid username or password.</h1>";
             }
        }
     }
